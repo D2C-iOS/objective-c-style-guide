@@ -145,7 +145,11 @@ if (error) {
 ```objc
 - (void)setExampleText:(NSString *)text image:(UIImage *)image;
 ```
-
+```objc
+- (void)setExampleText {
+    // 
+}
+```
 **方法不要到处乱写，按类型写到一块区域里面去**
 ```objc
 #pragma mark - Init
